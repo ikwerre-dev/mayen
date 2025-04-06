@@ -93,13 +93,13 @@ export default function Footer() {
                 {/* Subscribe Section */}
                 <div className="text-center mb-16">
                     <p className="text-sm mb-4">Subscribe to our News and Updates</p>
-                    <div className="max-w-xl mx-auto flex overflow-hidden text-sm bg-white rounded-[.5rem] p-2">
+                    <div className="max-w-xl mx-auto flex overflow-hidden text-sm bg-white rounded-[.5rem] p-2  ">
                         <input
                             type="email"
                             placeholder="Enter email address"
                             className="flex-1 px-6 py-2 text-gray-500 placeholder-gray-400 bg-transparent outline-none"
                         />
-                        <button className="px-8 py-2 bg-[#FFA500] text-white font-semibold rounded-[.5rem] hover:bg-[#FFA500]/90 transition-colors">
+                        <button className="px-8 py-2  bg-[#FFA500] text-white font-semibold rounded-[.5rem] hover:bg-[#FFA500]/90 transition-colors">
                             SUBSCRIBE
                         </button>
                     </div>

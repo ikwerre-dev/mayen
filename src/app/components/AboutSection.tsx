@@ -11,7 +11,7 @@ export default function AboutSection() {
                                 src="/volunteer.png"
                                 alt="Volunteer"
                                 fill
-                                className="object-cover rounded-lg pr-[3rem]"
+                                className="object-cover rounded-lg md:pr-[3rem]"
                             />
                             <div className="absolute -bottom-10 border-t-8 border-l-8 border-white right-0 bg-[#061640] p-8 r">
                                 <h2 className="text-white text-6xl font-bold">25+</h2>

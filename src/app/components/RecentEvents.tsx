@@ -59,8 +59,8 @@ export default function RecentEvents() {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-[#061640] mb-2">Recent Events &</h2>
-          <h3 className="text-3xl font-bold text-[#061640]">Activities</h3>
+          <h2 className="text-2xl md:text-3xl font-bold text-[#061640] mb-2">Recent Events &</h2>
+          <h3 className="text-2xl md:text-3xl font-bold text-[#061640]">Activities</h3>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map((event, index) => (

@@ -23,7 +23,7 @@ function ProjectCard({ title, description, image, goal, raised }: ProjectCardPro
           className="object-cover"
         />
       </div>
-      <div className="p-8 flex flex-col flex-grow">
+      <div className="p-5 md:p-8 flex flex-col flex-grow">
         <div className="flex-grow">
           <h3 className="text-white text-lg font-semibold mb-3 line-clamp-2">{title}</h3>
           <p className="text-white/90 text-sm line-clamp-2">{description}</p>
@@ -58,7 +58,7 @@ function ProjectCard({ title, description, image, goal, raised }: ProjectCardPro
           </div>
         </div>
 
-         <div className="flex justify-between mt-auto">
+         <div className="flex justify-between  mt-auto">
           <Button variant="whiteoutline">
             VIEW DETAILS
           </Button>
@@ -118,7 +118,7 @@ export default function ProjectsSection() {
     ];
 
     return (
-        <section className="relative py-20">
+        <section className="relative py-20 px-5 md:px-0">
             <Image
                 src="/mission1.png"
                 alt="Projects Background"
@@ -128,11 +128,11 @@ export default function ProjectsSection() {
             <div className="relative z-10 max-w-7xl mx-auto  ">
                 <div className="text-center mb-16">
                     <h2 className="text-sm text-gray-600 mb-2">Our Projects</h2>
-                    <h3 className="text-4xl font-bold text-[#061640]">
+                    <h3 className="text-2xl md:text-4xl font-bold text-[#061640]">
                         Building a Future of<br />Hope and Impact
                     </h3>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
                     {projects.map((project) => (
                         <ProjectCard key={project.title} {...project} />
                     ))}

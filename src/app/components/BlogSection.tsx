@@ -85,14 +85,14 @@ export default function BlogSection() {
           className="object-cover brightness-50"
         />
       </div>
-      <div className="relative z-10 max-w-7xl mx-auto px-[2rem] py-20">
+      <div className="relative z-10 max-w-7xl mx-auto md:px-[2rem] py-20">
         <div className="text-center mb-16">
           <h2 className="text-[#FFA500] text-lg font-medium mb-2">Our Blog</h2>
           <h3 className="text-white text-4xl font-bold">
             Check out our<br />Latest News
           </h3>
         </div>
-        <div className="grid bg-white  py-[2rem] px-[2rem] md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid bg-white p-[1rem] md:py-[2rem] md:px-[2rem] md:grid-cols-2 lg:grid-cols-3 gap-8">
           {posts.map((post, index) => (
             <BlogPost key={index} {...post} />
           ))}

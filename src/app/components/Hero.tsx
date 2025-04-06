@@ -15,7 +15,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-[#020F33]/71"></div>
 
             <div className="relative py-[18rem] h-full flex flex-col items-center justify-center text-white text-center px-4">
-                <h1 className="text-4xl md:text-6xl font-bold mb-4">
+                <h1 className="text-4xl md:text-6xl font-bold mb-1 md:mb-4">
                     Connecting Lives,
                 </h1>
                 <h1 className="text-4xl md:text-6xl font-bold mb-8">
