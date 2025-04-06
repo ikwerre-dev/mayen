@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="fixed w-full bg-white z-[100]">
-      <div className="container mx-auto px-4 py-4 relative z-[60]  inset-0">
+      <div className="container mx-auto px-4 py-5 relative z-[60]  inset-0">
         <nav className="flex items-center justify-between">
           <Link href="/">
             <Image

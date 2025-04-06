@@ -164,7 +164,7 @@ export default function ProjectsSection() {
         </motion.div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
           {projects.map((project, index) => (
-            <ProjectCard key={project.title} {...project} />
+            <ProjectCard key={index} {...project} />
           ))}
         </div>
       </div>

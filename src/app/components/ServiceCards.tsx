@@ -83,7 +83,7 @@ export default function ServiceCards() {
       <div className="grid grid-cols-1 md:grid-cols-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:grid-cols-3 gap-5 md:gap-8 pb-[2rem] md:py-[3rem] bg-[#FFF9F9] p-[1rem] md:p-[2rem]">
         {services.map((service, index) => (
           <ServiceCard 
-            key={service.title} 
+            key={index} 
             {...service} 
           />
         ))}
