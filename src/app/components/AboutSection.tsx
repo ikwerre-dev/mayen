@@ -37,8 +37,7 @@ export default function AboutSection() {
                     </div>
                 </div>
 
-                {/* Vision & Mission Statements */}
-                <div className="max-w-5xl mx-auto py-[3rem]">
+                 <div className="max-w-5xl mx-auto py-[3rem]">
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="relative bg-[#061640] p-8 py-[3rem] text-center overflow-hidden">
                             <Image

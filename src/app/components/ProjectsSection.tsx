@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Button from './Button';
+import { Heart } from 'lucide-react';
 
 interface ProjectCardProps {
     title: string;
@@ -28,8 +29,7 @@ function ProjectCard({ title, description, image, goal, raised }: ProjectCardPro
           <p className="text-white/90 text-sm line-clamp-2">{description}</p>
         </div>
         
-        {/* Progress Bar */}
-        <div className="relative mb-6">
+         <div className="relative mb-6">
           <div className="w-full h-1 bg-white/20 rounded-full">
             <div 
               className="relative h-full bg-[#00A3FF] rounded-full" 
@@ -49,8 +49,7 @@ function ProjectCard({ title, description, image, goal, raised }: ProjectCardPro
           </div>
         </div>
 
-        {/* Goals */}
-        <div className="flex justify-between items-center mb-8">
+         <div className="flex justify-between items-center mb-8">
           <div className="text-white">
             <div className="text-sm font-bold">Goal: ${goal.toLocaleString()}</div>
           </div>
@@ -59,13 +58,12 @@ function ProjectCard({ title, description, image, goal, raised }: ProjectCardPro
           </div>
         </div>
 
-        {/* Buttons */}
-        <div className="flex justify-between mt-auto">
+         <div className="flex justify-between mt-auto">
           <Button variant="whiteoutline">
             VIEW DETAILS
           </Button>
           <Button variant="primary">
-            DONATE ❤️
+            DONATE <Heart className='w-4 h-4' color='white' />
           </Button>
         </div>
       </div>
